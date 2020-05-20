@@ -525,12 +525,12 @@ function preCargarFunciones(){
       ponerMarcador();
       setTimeout(function(){
         llenar_datos_barrios();
-        //$("#msg1").fadeOut(1400,function(){
-         // $("#msg1 h5").remove();
-         // var nuevo_e = $('<h5 style="color:#EEE5E5;">You can see the Top 10 of NY Districts in Distance, Security and Affordability on the left side of the screen</h5>');
-        //  $('#msg1').append(nuevo_e);
-        //  $("#msg1").fadeIn(1000);
-        //});
+        $("#msg1").fadeOut(1400,function(){
+          $("#msg1 h5").remove();
+          var nuevo_e = $('<h5 style="color:#EEE5E5;">You can see the Top 10 of NY Districts in Distance, Security and Affordability on the left side of the screen</h5>');
+          $('#msg1').append(nuevo_e);
+          $("#msg1").fadeIn(1000);
+        });
         setTimeout(function(){
           obtenerCentrosYdistancias();
           setTimeout(function(){
