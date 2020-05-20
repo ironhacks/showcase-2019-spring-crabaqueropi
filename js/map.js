@@ -17,7 +17,7 @@ function onGoogleMapResponse(){
     directionsDisplay.setMap(map);
 
     map.data.loadGeoJson(
-      'https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/nycd/FeatureServer/0/query?where=1=1&outFields=*&outSR=4326&f=geojson');
+      'https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services/NYC_Community_Districts/FeatureServer/0/query?where=1=1&outFields=*&outSR=4326&f=geojson');
 
     var n = 0;
     map.data.setStyle(function(feature) {
