@@ -537,12 +537,12 @@ function preCargarFunciones(){
             obtenerCrimenes();
             ObtenerHospedajes();
             llenar_datos_barrios();
-            $("#msg1").fadeOut(2000,function(){
-              $("#msg1 h5").remove();
-              var nuevo_e = $('<h5 style="color:#EEE5E5;">You can put Markers on the right side of the screen</h5>');
-              $('#msg1').append(nuevo_e);
-              $("#msg1").fadeIn(1000);
-            });
+            //$("#msg1").fadeOut(2000,function(){
+            //  $("#msg1 h5").remove();
+             // var nuevo_e = $('<h5 style="color:#EEE5E5;">You can put Markers on the right side of the screen</h5>');
+             // $('#msg1').append(nuevo_e);
+             // $("#msg1").fadeIn(1000);
+            //});
             setTimeout(function(){
               calificarDistritos();
               actualizarTablaComparar();
